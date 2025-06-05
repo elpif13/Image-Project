@@ -5,8 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-.media
-.test-images
+media
+test-images
 
 # Distribution / packaging
 .Python
