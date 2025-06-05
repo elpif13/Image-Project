@@ -64,11 +64,6 @@ python manage.py runserver
 curl -X POST -F "image=@/path/to/image.jpg" http://127.0.0.1:8000/upload/
 ```
 
-### Retrieve resized image
-```bash
-curl http://127.0.0.1:8000/images/test-image.jpg
-```
-
 ### Delete an image
 ```bash
 curl -X DELETE http://127.0.0.1:8000/images/delete/<filename>
